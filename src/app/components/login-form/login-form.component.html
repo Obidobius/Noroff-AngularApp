@@ -1,0 +1,28 @@
+<div class="container loginForm">
+  <div class="row">
+    <div class="col-sm-12">
+        <div class="card">
+          <div class="card-body loginDetails text-center">
+            <h2 class=" heading text-center">Please enter account details</h2>
+            <br>
+              <form [formGroup]="form" (ngSubmit)="onLoginSubmit(form.value)" class="loginDetails__form">
+                  <div class="loginDetails__form--user">
+                    <input type="text" placeholder="Enter username"
+                    formControlName="username" class="form-control">
+                  </div>
+                  <br />
+                  <div class="form-group loginDetails__form--user">
+                    <input type="password" placeholder="Enter your password"
+                    formControlName="password" class="form-control">
+                  </div>
+                  <br>
+                 
+                  <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </form>
+            </div>
+          </div>
+           
+    </div>
+  </div>
+</div>
+

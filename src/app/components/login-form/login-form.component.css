@@ -1,0 +1,17 @@
+button {
+  border: solid #2d22d3 4px;
+  background: #2d22d3;
+  color: #ffffff;
+  font-size: 1em;
+  border-radius: 3px;
+}
+
+p {
+  font-size: 3em;
+}
+
+div.small p {
+  border: solid black 5px;
+  font-size: 0.5em;
+}
+/*# sourceMappingURL=login-form.component.css.map */

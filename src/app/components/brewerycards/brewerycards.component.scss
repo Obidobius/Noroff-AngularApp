@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+
+.card{
+    min-height: 270px;
+    max-height: 270px;
+    margin: auto;
+    &-body{
+        background-image: url('../../images/bL.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        min-height: 270px;
+        max-height: 270px;
+    }
+    &-title{
+        color: white;
+    }
+    &-text{
+        color: white;
+    }
+}
+h5{
+    font-family: 'Germania One', cursive;
+}
+hr{
+    color: white;
+    border-color: white;
+}
+//Photo by mnm.all on Unsplash

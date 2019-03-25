@@ -1,0 +1,41 @@
+<div class="container">
+    <br><br>
+    <h1>Chuck Norris!</h1>
+    <div *ngIf="chuckList" class="row " >
+        <app-chuck-cards class="chuckContainer text-center" [chuckJokes]="chuckList"></app-chuck-cards>
+    </div>
+    <br><br>
+    <button (click)="chuckList">Press me</button>
+    <!--Weather-->
+    <h1>Todays Weather</h1>
+    <hr>
+    <div *ngIf="weatherDate.length > 0" class="row text-center" ng-app="myApp" ng-controller="myCtrl">
+        <app-weathercards class="weatherContainer col-sm-6 col-md-6" *ngFor="let weatherNews of weatherDate"
+            [weatherItem]="weatherNews">
+        </app-weathercards>
+    </div>
+    <br><br>
+    <!--Activity-->
+    <h1>--Activities--</h1>
+    <br>
+    <hr>
+    <div *ngIf="activityList" class="row">
+        <app-activity [activityTypes]="activityList" class="activityContainer text-center"></app-activity>
+    </div>
+    <br><br>
+    <!--Pokemon-->
+    <h1>Pokemon Names</h1>
+    <hr>
+    <div *ngIf="pokemonList.length > 0" class="row rPokemon">
+        <app-pokemon [pokemonTypes]="pokemonAmount" *ngFor="let pokemonAmount of pokemonList" class="pokemonContainer col-md-4"></app-pokemon>
+    </div>
+    <br><br>
+    <!--Brewery-->
+    <h1>Brewer Types</h1>
+    <hr>
+    <div *ngIf="brewList.length > 0" class="row">
+        <app-brewerycards [brewTypes]="brewAmount" *ngFor="let brewAmount of brewList" class=" brewContainer col-md-6"></app-brewerycards>
+    </div>
+    <hr>
+</div>
+

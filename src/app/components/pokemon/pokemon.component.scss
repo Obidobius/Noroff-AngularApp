@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+.card{
+    border: none;
+    margin: auto;
+    &-body {
+        background-image:url('../../images/pM.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        border-radius: 10%;
+    }
+    &-title{
+        color: white;
+        text-shadow: 3px 2px 1px #3B4CCA;
+        //ext-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue
+    }
+    &-types{
+        text-align: center;
+        font-family: 'Audiowide', cursive;
+        color: #FFDE00;
+        text-shadow: 3px 2px 1px #3B4CCA;
+    }
+}
+hr{
+    color: white;
+    border-color: white;
+}
+
+//Photo by Jay on Unsplash

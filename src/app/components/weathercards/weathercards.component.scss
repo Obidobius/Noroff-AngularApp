@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Hammersmith+One');
+
+.card{
+    border: none;
+    height: 20rem;
+    width: 20rem;
+    margin: auto;
+    &-body{
+        background-image:url('../../images/wB.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: white;
+        padding-bottom: 10px;
+        margin: 10;
+        border: solid #fafafa 2px;
+        border-radius: 100%;
+    }
+    &-text{
+        text-align: center; 
+    }
+    &-title{
+        text-align: center;
+        font-family: 'Hammersmith One', sans-serif;
+    }
+}
+hr{
+    color: white;
+    border-color: white;
+}
+//Photo by Sara The Freak on Unsplash
